@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn-start {
+  display: inline-block; /* Penting biar padding atas-bawah jalan */
+  background-color: #007bff; /* Warna biru tombol */
+  color: white; /* Warna teks */
+  padding: 10px 20px; /* Jarak dalam tombol */
+  text-decoration: none; /* Hilangkan garis bawah link */
+  border-radius: 5px; /* Lengkungan sudut */
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Efek saat mouse diarahkan (hover) */
+.btn-start:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  padding: 2em;
+}
