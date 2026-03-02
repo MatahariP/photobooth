@@ -6,7 +6,7 @@ export default function MainPage() {
     return (
         <>
         <nav>
-            <Link to="/email" className="btn-start">Start</Link>
+            <Link to="/payment" className="btn-start">Start</Link>
         </nav>
         </>
     )
